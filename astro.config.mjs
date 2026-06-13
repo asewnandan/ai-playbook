@@ -18,7 +18,7 @@ export default defineConfig({
 					],
 				}),
 			],
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://asewnandan.github.io' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/asewnandan/ai-playbook' }],
 			sidebar: [
 				{
 					label: 'Guides',
