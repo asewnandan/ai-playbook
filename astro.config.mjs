@@ -5,6 +5,8 @@ import lucode from 'lucode-starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://asewnandan.github.io',
+	base: '/ai-playbook',
 	integrations: [
 		starlight({
 			title: 'My Docs',
