@@ -9,12 +9,12 @@ export default defineConfig({
 	base: '/ai-playbook',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'AI Playbook',
 			plugins: [
 				lucode({
 					navLinks: [
-						{ label: 'Docs', link: '/guides/getting-started/' },
-						{ label: 'API', link: '/reference/plugin-api/' },
+					{ label: 'Playbook', link: '/guides/planning-workflow/' },
+					{ label: 'Over', link: '/over/' },
 					],
 				}),
 			],
