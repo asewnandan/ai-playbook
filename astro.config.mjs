@@ -24,6 +24,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Planning workflow', slug: 'guides/planning-workflow' },
 					],
 				},
 				{
