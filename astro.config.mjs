@@ -1,6 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
+import starlightLinksValidator from 'starlight-links-validator';
+import starlightImageZoom from 'starlight-image-zoom';
 import lucode from 'lucode-starlight';
 
 // https://astro.build/config
@@ -8,6 +11,7 @@ export default defineConfig({
 	site: 'https://asewnandan.github.io',
 	base: '/ai-playbook',
 	integrations: [
+		sitemap(),
 		starlight({
 			title: 'AI Playbook',
 			plugins: [
@@ -17,6 +21,8 @@ export default defineConfig({
 					{ label: 'Over', link: '/over/' },
 					],
 				}),
+				starlightLinksValidator(),
+				starlightImageZoom(),
 			],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/asewnandan/ai-playbook' }],
 			sidebar: [
