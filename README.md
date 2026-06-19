@@ -1,7 +1,7 @@
 <h1 align="center">AI Playbook</h1>
 
 <p align="center">
-  <img src="public/banner.svg" alt="AI Playbook" width="180" height="180" />
+  <img src="public/loader.svg" alt="AI Playbook" width="180" height="180" />
 </p>
 
 <!-- Rij 1: CI / status -->
